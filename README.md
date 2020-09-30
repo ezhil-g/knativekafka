@@ -19,7 +19,7 @@ Install the package in your environment from the terminal using the below pip co
 
 Optionally, you can clone this project by running 
 
-`git clone https://github.com/egowtham/knativekafka`
+`git clone https://github.com/ezhil-g/knativekafka`
 
 ### Pre-requisites
 
