@@ -32,9 +32,11 @@ Optionally, you can clone this project by running
 
 ### How to Use?
 
-* Import the Kafka Producer and Kafka Consumer into your python code.
+* Import the Kafka Producer into your python code using the below import.
 
 `from knativekafka.knativekafkaproducer import KNativeKafkaProducer`
+
+To import the Kafka Consumer use the below import.
 `from knativekafka.knativekafkaconsumer import KNativeKafkaConsumer`
     
 
@@ -48,7 +50,7 @@ If you want any additional features implemented, feel free to modify the repo.
 
 To test the producer, perform the below steps.
 
-* Instantiate the handler and then, call the test_producer().
+* Instantiate the KNativeKafkaProducer and then, call send_binary_data(). The send_binary_data() takes the message in binary format.
 
 ```
 kafka_producer = KNativeKafkaProducer(os.environ['KAFKA_BROKERS'],os.environ['TOPIC'])
@@ -58,11 +60,8 @@ kafka_producer.send_binary_data(value)
 
 ```
 
-
 ### License
 
 ```
 Apache License
 ```
-
- The complete license terms can be found in `LICENSE` file in this repository.
