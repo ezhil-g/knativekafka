@@ -11,7 +11,7 @@ setuptools.setup(
     description="A wrapper for kafka-python used in knative",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/egowtham/knative-kafka",
+    url="https://github.com/egowtham/knativekafka",
     packages=['knativekafka'],
     python_requires='>=3.7',
     install_requires=['kafka-python'],
