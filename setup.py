@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="knativekafka",
-    version="0.0.2",
+    version="0.0.1",
     author="Ezhil Gowthaman",
     author_email="ezhilgowtha@gmail.com",
     description="A wrapper for kafka-python used in knative",
