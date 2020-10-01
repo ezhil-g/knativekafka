@@ -1,4 +1,4 @@
-## knativeafka
+## knativkafka
 
 knativekafka is a wrapper around kafka-python package. This package is easy to use and can be used to test the Kafka Producer in kafka-python package.
 
