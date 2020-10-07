@@ -5,18 +5,18 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="knativekafka",
-    version="0.0.5",
+    version="0.1.1",
     author="Ezhil Gowthaman",
     author_email="ezhilgowtha@gmail.com",
     description="A wrapper for kafka-python used in knative",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ezhil-g/knativekafka",
+    url="https://github.optum.com/Optum-Serverless/kafka-source/tree/master/python/knativekafka",
     packages=['knativekafka'],
     python_requires='>=3.7',
     install_requires=['kafka-python'],
     classifiers=[
-        "Development Status :: 5 - Production/Stable",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: Apache Software License",
         "Programming Language :: Python",
